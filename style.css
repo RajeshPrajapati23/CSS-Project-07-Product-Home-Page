@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 30px;
+  margin-left: 40px;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+}
+.nav-item {
+  margin-left: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.active {
+  color: rgb(255, 38, 0);
+  font-family: "Fredoka", sans-serif;
+}
+.whole-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.col-1 {
+  position: relative;
+  top: 50px;
+  left: 30px;
+}
+.circle {
+  height: 5vh;
+}
+.new-product {
+  font-size: 5vh;
+}
+.wireless {
+  font-weight: bold;
+  font-size: 57px;
+  margin-top: 15px;
+  font-family: "Fredoka", sans-serif;
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 50px;
+}
+.headphone-section {
+  position: relative;
+  top: -20px;
+  left: 0;
+  color: #fff;
+}
+.discount-icon {
+  position: absolute;
+  top: 65%;
+  width: 112px;
+  filter: drop-shadow(-1px 5px 2px black);
+  z-index: 2;
+}
+
+.discount-content {
+  position: relative;
+  top: 72%;
+  left: 24px;
+  color: #fff;
+  z-index: 2;
+}
+.discount-h3 {
+  font-size: 15px;
+}
+.headphone-icon {
+  position: relative;
+  height: 70vh;
+  top: 0;
+}
+.add-chart {
+  z-index: 3;
+  cursor: pointer;
+}
+.main-headline {
+  margin-top: 40px;
+  margin-left: 47px;
+}
+.plus-icon {
+  background-color: rgb(237, 47, 47);
+  border: 1px solid transparent;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.sub-headline {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+p {
+  margin-top: 36px;
+  color: gray;
+  font-size: 14px;
+}
+.go-shoping {
+  margin-top: 30px;
+}
+.btn-col1 {
+  height: 36px;
+  width: 130px;
+  border-radius: 30px;
+  color: #fff;
+  border: solid transparent;
+  background-color: rgb(255, 38, 0);
+  margin-right: 15px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.dots {
+  display: flex;
+  margin-top: -10px;
+}
+.dot {
+  padding: 8px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.yellow-dot {
+  background-color: #ffff00;
+}
+.tomato-dot {
+  background-color: rgb(255, 38, 0);
+}
+.black-dot {
+  background-color: #000;
+}
+.add-chart {
+  height: 36px;
+  width: 130px;
+  margin-top: 16px;
+  border-radius: 30px;
+  color: #fff;
+  border: solid transparent;
+  background-color: rgb(255, 38, 0);
+}
+
+@media screen and (max-width: 750px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    align-items: center;
+  }
+  .nav-item,
+  .btn-col1,
+  .add-chart {
+    cursor: pointer;
+  }
+  .whole-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 87px;
+  }
+  .logo {
+    height: 44px;
+    padding: 15px;
+    margin-left: 93px;
+  }
+  .actions {
+    margin-left: 134px;
+  }
+  p {
+    color: gray;
+    font-size: 25px;
+  }
+  .go-shoping {
+    display: flex;
+  }
+  .col-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 22px;
+  }
+  .headphone-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 49px;
+  }
+  .discount-content {
+    position: relative;
+    top: 329px;
+  }
+  .add-chart {
+    margin-bottom: 30px;
+  }
+}
